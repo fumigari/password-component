@@ -1,12 +1,11 @@
-import React from 'react';
 import './App.css';
 import PasswordCheck from './components/password-check';
 
 const requirements = {
-  specialCharacters: "!@#\$%^&*",
-	number: "?=.*[0-9]",
-	uppercase: "?=.*[A-Z]",
-	// "noConsecutiveLetters": "(^(?:(?!([a-zA-Z])\))*$)",
+  specialCharacters: true,
+	number: true,
+	uppercase: true,
+	noConsecutiveLetters: true,
 };
 
 function App() {
