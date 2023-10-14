@@ -4,13 +4,13 @@ import Icon from '.';
 
 describe("<Icon />", () => {
 	test("Should render X Mark", () => {
-		render(<Icon changeIcon={false}/>);
+		render(<Icon id="1" changeIcon={false}/>);
 		const result = screen.queryByTitle("xmark");
 		expect(result).toBeInTheDocument();
 	});
 
 	test("Should render Check", () => {
-		render(<Icon changeIcon={true}/>);
+		render(<Icon id="1" changeIcon={true}/>);
 		const result = screen.queryByTitle("check");
 		expect(result).toBeInTheDocument();
 	});
