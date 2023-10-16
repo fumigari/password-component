@@ -40,7 +40,7 @@ const PasswordCheck = ({ options } : optionsProps) => {
 				setUppercase(true) : setUppercase(false);
 		}
 		if(options.noConsecutiveLetters){
-			regex.noConsecutiveLetters.test(event.target.value) ? 
+			regex.noConsecutiveLetters.test(event.target.value) || event.target.value === "" ? 
 				setNoConsecutiveLetters(false) : setNoConsecutiveLetters(true);
 		}
 
