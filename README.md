@@ -23,7 +23,8 @@ npm test
 ```
 
 ## Improvements
-- Add a show/hide icon inside the password input to insure the user's privacy during the password creation.
-- Add a toggle switch for which requirements the user wants to check their password. With that the user won't need to change on the application.
+-  Add a show/hide icon inside the password input to ensure the user's privacy during the password creation.
+- Add a requirement with a minimum of characters.
+- Add a toggle switch for which requirements the user wants to check their password. With that, the user won't need to change the application.
 - Create a reset button to erase the text input.
 - Create a copy password button.
